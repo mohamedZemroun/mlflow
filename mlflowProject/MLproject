@@ -1,0 +1,15 @@
+name: forcast-stock
+
+docker_env:
+  image: mzemroun/mlflow:tagname
+
+entry_points:
+  main:
+    parameters:
+      batch_size: {type: int, default: 1}
+      epochs: {type: int, default: 5}
+      company: {type: str, default: "APPLE"}
+    command: "python train.py \
+      --batch-size {batch_size} \
+      --epochs {epochs} \
+      --company {company}"

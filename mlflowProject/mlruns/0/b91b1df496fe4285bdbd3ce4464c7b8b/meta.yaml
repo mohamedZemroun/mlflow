@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mohamed/PycharmProjects/mlflow/mlflowProject/mlruns/0/b91b1df496fe4285bdbd3ce4464c7b8b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b91b1df496fe4285bdbd3ce4464c7b8b
+run_uuid: b91b1df496fe4285bdbd3ce4464c7b8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1613655995455
+status: 1
+tags: []
+user_id: Mohamed
